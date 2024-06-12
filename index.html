@@ -19,6 +19,9 @@
       </style>
       </noscript>
  <style>
+   body{
+     background-color:#f6f4f4;
+   }
    .bg-danger{
      background-color:#d20202;
    }
@@ -35,6 +38,7 @@
      border-radius:0px;
      text-align:left;
      padding-left:10px;
+     font-weight:800;
    }
  </style>
   </head>
@@ -43,9 +47,7 @@
        <amp-img  src="https://pub-8a53f62029e549e6addbcc60ad14725a.r2.dev/36x.png" height="50" width="50"></amp-img>
       <button type="button" class="btn btn-danger p-0 navbar-toggler" on="tap:sidebar-368"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><rect width="9" height="9" x="1.5" y="1.5" fill="white" rx="1"><animate id="svgSpinnersBlocksScale0" attributeName="x" begin="0;svgSpinnersBlocksScale1.end+0.135s" dur="0.54s" keyTimes="0;.2;1" values="1.5;.5;1.5"/><animate attributeName="y" begin="0;svgSpinnersBlocksScale1.end+0.135s" dur="0.54s" keyTimes="0;.2;1" values="1.5;.5;1.5"/><animate attributeName="width" begin="0;svgSpinnersBlocksScale1.end+0.135s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/><animate attributeName="height" begin="0;svgSpinnersBlocksScale1.end+0.135s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/></rect><rect width="9" height="9" x="13.5" y="1.5" fill="white" rx="1"><animate attributeName="x" begin="svgSpinnersBlocksScale0.begin+0.135s" dur="0.54s" keyTimes="0;.2;1" values="13.5;12.5;13.5"/><animate attributeName="y" begin="svgSpinnersBlocksScale0.begin+0.135s" dur="0.54s" keyTimes="0;.2;1" values="1.5;.5;1.5"/><animate attributeName="width" begin="svgSpinnersBlocksScale0.begin+0.135s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/><animate attributeName="height" begin="svgSpinnersBlocksScale0.begin+0.135s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/></rect><rect width="9" height="9" x="13.5" y="13.5" fill="white" rx="1"><animate attributeName="x" begin="svgSpinnersBlocksScale0.begin+0.27s" dur="0.54s" keyTimes="0;.2;1" values="13.5;12.5;13.5"/><animate attributeName="y" begin="svgSpinnersBlocksScale0.begin+0.27s" dur="0.54s" keyTimes="0;.2;1" values="13.5;12.5;13.5"/><animate attributeName="width" begin="svgSpinnersBlocksScale0.begin+0.27s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/><animate attributeName="height" begin="svgSpinnersBlocksScale0.begin+0.27s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/></rect><rect width="9" height="9" x="1.5" y="13.5" fill="white" rx="1"><animate id="svgSpinnersBlocksScale1" attributeName="x" begin="svgSpinnersBlocksScale0.begin+0.405s" dur="0.54s" keyTimes="0;.2;1" values="1.5;.5;1.5"/><animate attributeName="y" begin="svgSpinnersBlocksScale0.begin+0.405s" dur="0.54s" keyTimes="0;.2;1" values="13.5;12.5;13.5"/><animate attributeName="width" begin="svgSpinnersBlocksScale0.begin+0.405s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/><animate attributeName="height" begin="svgSpinnersBlocksScale0.begin+0.405s" dur="0.54s" keyTimes="0;.2;1" values="9;11;9"/></rect></svg></button>
     </nav>
-    <amp-sidebar id="sidebar-368" class="sample-sidebar" layout="nodisplay" side="left" style="width:368px">
-  <h3>Sidebar</h3>
-  <button on="tap:sidebar-left.close">Close sidebar</button>
+    <amp-sidebar id="sidebar-368" class="sample-sidebar" layout="nodisplay" side="left" style="width:368px;background-color:#f6f4f4">
   <nav toolbar-target="target-element-left">
     <amp-nested-menu layout="fill">
     <ul>
@@ -59,10 +61,6 @@
     </ul>
       </amp-nested-menu>
   </nav>
-  <ul>
-    <li>Nav item 3</li>
-    <li>Nav item 4</li>
-  </ul>
 </amp-sidebar>
     <div class="bg-gold w-100" style="height:5px"></div>
   </body>

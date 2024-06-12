@@ -1,3 +1,4 @@
 <?php
-echo '368 CASINO';
+$hd = apache_request_headers();
+print_r($hd);
 ?>
